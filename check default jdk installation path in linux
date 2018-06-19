@@ -1,0 +1,5 @@
+which java & whereis java could not tell us where exactly jdk is installed before the system environment is setup. 
+However, the following way could be used to find the default path. 
+
+$which java
+/usr.bin/java
