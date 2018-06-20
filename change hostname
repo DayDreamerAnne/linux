@@ -1,0 +1,6 @@
+1. $sudo hostname new_host_name
+2. sudo vi /etc/sysconfig/network
+    changing following line: HOSTNAME=new-hostname.domainname
+3. sudo vi /etc/hosts
+    finding the lines: 127.0.0.1  localhost.localdomain localhost
+    attching to above line: 127.0.0.1  new-hostname.localdomain new-hostname
